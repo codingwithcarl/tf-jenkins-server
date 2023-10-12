@@ -8,9 +8,7 @@
   <h2 align="center">Jenkins on AWS</h2>
 
   <p align="center">
-    *Terraform Repository to deploy a Jenkins server to AWS.*  
-    <br />
-    <a href=""><strong>View Demo »</strong></a>
+    <i>Terraform Repository to deploy a Jenkins server to AWS.</i>  
     <br />
     <br />
   </p>
