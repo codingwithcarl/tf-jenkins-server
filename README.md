@@ -1,6 +1,22 @@
 # Jenkins on AWS
 
-*Terraform Repository to deploy a Jenkins server to AWS.*  
+<div id="top"></div>
+
+<!-- HEADER -->
+<br />
+<div align="center">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdwglogo.com%2Fwp-content%2Fuploads%2F2017%2F11%2F1500px_Jenkins_logo.png&f=1&nofb=1&ipt=c213b644c5ebf3cb5c157f4e4d5105db003998715aa9f3d35d1b8125f1b4fce7&ipo=images" alt="Logo" width="80" height="80">
+
+  <h3 align="center">Jenkins on AWS</h3>
+
+  <p align="center">
+    *Terraform Repository to deploy a Jenkins server to AWS.*  
+    <br />
+    <a href=""><strong>View Demo »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
 <!-- ABOUT -->
 ## About
@@ -44,3 +60,4 @@ terraform init
 terraform plan
 terraform apply
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
