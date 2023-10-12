@@ -3,7 +3,7 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F10%2FJenkins_logo_wordmark.png&f=1&nofb=1&ipt=4aa840e26b73cbf3d99c66d025226bfd85c94a5d3941cf161d1aa64f65f647d5&ipo=images" alt="Logo" width="80" height="80">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F10%2FJenkins_logo_wordmark.png&f=1&nofb=1&ipt=4aa840e26b73cbf3d99c66d025226bfd85c94a5d3941cf161d1aa64f65f647d5&ipo=images" alt="Logo" >
 
   <h2 align="center">Jenkins on AWS</h2>
 
