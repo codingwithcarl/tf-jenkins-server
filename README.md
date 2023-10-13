@@ -21,6 +21,8 @@ Provision Jenkins to AWS with this Terraform template. This will create several 
 
 The Jenkins Controller and a Jenkins Agent will be provisioned on two separate EC2 instances. 
 
+An Application Load Balancer will be created to enable HTTPS and DNS.
+
 ### Built With
 
 * [Terraform](https://www.terraform.io/)
@@ -34,7 +36,8 @@ The Jenkins Controller and a Jenkins Agent will be provisioned on two separate E
 1. An AWS account and access to the [AWS Management Console](https://aws.amazon.com/console/)
 2. An S3 bucket for  [Terraform state tracking](https://developer.hashicorp.com/terraform/language/state)
 3. [AWS CLI](https://aws.amazon.com/cli/)
-4. [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+4. [Key Pairs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) to ssh into the EC2 instances.
+5. [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
