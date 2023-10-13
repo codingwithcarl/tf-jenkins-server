@@ -50,7 +50,7 @@ Ensure to sign into the AWS CLI.
 aws login
 ```
 
-Modify the data sources and resources to match your current environment. See my blog post for an explaination [here]().
+Modify the data sources and resources to match your current environment. See my blog post for an explaination [here](https://codingwithcarl.com/posts/2023-10-13-jenkins/).
 
 Initalize Terraform, validate the plan to provision the AWS resources, and apply.
 
