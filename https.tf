@@ -98,6 +98,23 @@ resource "aws_lb" "alb" {
     aws_subnet.subnet_3.id
   ]
 }
+
+resource "aws_lb_listener" "http_lb_listener" {
+  load_balancer_arn = aws_lb.alb.arn
+  port              = "80"
+  protocol          = "HTTP"
+
+  default_action {
+    type = "redirect"
+
+    redirect {
+      port        = "443"
+      protocol    = "HTTPS"
+      status_code = "HTTP_301"
+    }
+  }
+}
+
 resource "aws_lb_listener" "https_lb_listener" {
   load_balancer_arn = aws_lb.alb.arn
   port              = "443"
